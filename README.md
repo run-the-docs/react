@@ -9,6 +9,7 @@ Each episode has its own directory with the code shown in the video.
 | # | Topic | Directory |
 |---|-------|-----------|
 | 01 | Your First Component | [ep01-your-first-component](ep01-your-first-component/) |
+| 02 | Importing and Exporting | [ep02-importing-exporting](ep02-importing-exporting/) |
 
 ## About
 
