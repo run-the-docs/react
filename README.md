@@ -13,6 +13,8 @@ Each episode has its own directory with the code shown in the video.
 
 | 03 | Writing Markup with JSX | [ep03-writing-jsx](ep03-writing-jsx/) |
 
+| 04 | Curly Braces in JSX | [ep04-curly-braces](ep04-curly-braces/) |
+
 ## About
 
 Technical docs. Made watchable. These examples accompany short-form videos that explain React concepts visually.
