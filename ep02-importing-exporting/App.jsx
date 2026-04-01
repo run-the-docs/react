@@ -1,7 +1,7 @@
 // Default import (no braces)
-import Gallery from './Gallery.js';
+import Gallery from './Gallery.jsx';
 // Named import (braces required, name must match)
-import { Profile } from './Gallery.js';
+import { Profile } from './Gallery.jsx';
 
 export default function App() {
   return (

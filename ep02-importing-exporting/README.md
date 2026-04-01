@@ -14,24 +14,24 @@ From [Run the Docs: React](https://run-the-docs.pages.dev/) video series.
 
 | Type | Export | Import |
 |------|--------|--------|
-| Default | `export default function Gallery() {}` | `import Gallery from './Gallery.js'` |
-| Named | `export function Profile() {}` | `import { Profile } from './Gallery.js'` |
+| Default | `export default function Gallery() {}` | `import Gallery from './Gallery.jsx'` |
+| Named | `export function Profile() {}` | `import { Profile } from './Gallery.jsx'` |
 
-**Default imports** can be renamed: `import Banana from './Gallery.js'` works.
+**Default imports** can be renamed: `import Banana from './Gallery.jsx'` works.
 **Named imports** must match: `import { Profile }` — not `import { Banana }`.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Gallery.js` | Contains both a default export (Gallery) and named export (Profile) |
+| `Gallery.jsx` | Contains both a default export (Gallery) and named export (Profile) |
 | `App.jsx` | Imports both using the correct syntax |
 
 ## Run it
 
 ```bash
 npx create-react-app my-app
-cp Gallery.js App.jsx my-app/src/
+cp Gallery.jsx App.jsx my-app/src/
 cd my-app && npm start
 ```
 
