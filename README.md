@@ -15,6 +15,8 @@ Each episode has its own directory with the code shown in the video.
 
 | 04 | Curly Braces in JSX | [ep04-curly-braces](ep04-curly-braces/) |
 
+| 05 | Passing Props | [ep05-passing-props](ep05-passing-props/) |
+
 ## About
 
 Technical docs. Made watchable. These examples accompany short-form videos that explain React concepts visually.
